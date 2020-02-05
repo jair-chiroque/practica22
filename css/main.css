@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #3d6882a8;
+  color:white;
+  font-size: 22px;;
+}
+
+#container{
+  display:grid;
+  grid-template-columns: 1fr  2fr 1fr 2fr 1fr;
+  grid-template-rows: calc(15vh - 10px) calc(8vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(14vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container .titulo{
+  padding: 9px;
+  background-color:#099800;
+  border-radius: 5px;
+  grid-row: 1/2;
+  grid-column: 2/5;
+
+}
+
+#container .imagen1{
+  padding: 9px;
+  background-color:#596ac3;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 2/3;
+
+}
+
+#container .imagen1 img{
+  width: 100%;
+  height: 95%;
+}
+
+
+
+#container .imagen2{
+  padding: 9px;
+  background-color:#c14eb3;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+#container .imagen2 img{
+  width: 100%;
+  height: 95%;
+}
+
+#container .imagen3{
+  padding: 9px;
+  background-color:#ff9800;
+  border-radius: 5px;
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+#container .imagen3 img{
+  width: 100%;
+  height: 90%;
+}
+
+#container .imagen4{
+  padding: 9px;
+  background-color:#ff3700;
+  border-radius: 5px;
+  grid-row: 4/4;
+  grid-column: 4/5;
+}
+#container .imagen4 img{
+  width: 100%;
+  height: 95%;
+}
